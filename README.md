@@ -1,5 +1,7 @@
 # Email-Spam-
 This is a email spam detection software using AI
+
+
 spam_classifier_project/
 ├── app.py                     # Your Flask API
 ├── model/
