@@ -1,15 +1,15 @@
-# Email-Spam-
-This is a email spam detection software using AI
+# Spam Classifier API
 
+This project builds and deploys a machine learning model to classify SMS messages as spam or not spam.
 
-spam_classifier_project/
-├── app.py                     # Your Flask API
-├── model/
-│   ├── spam_model.pkl         # Serialized model (using joblib or pickle)
-│   └── vectorizer.pkl         # Serialized vectorizer
-├── data/
-│   └── SMSSpamCollection      # Raw dataset file
-├── notebooks/                 # Optional: for EDA or experiments
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Files to exclude from version control
-└── README.md                  # Project overview
+## Features
+- Data preprocessing
+- Logistic regression classifier
+- Flask API for predictions
+- Extensible structure for improvements
+
+## Usage
+Train the model, run the API using `python app.py`, and make POST requests to `/predict`.
+
+## Dataset
+Based on the [SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection).
